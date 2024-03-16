@@ -11,6 +11,8 @@
 		81C7022C2B53F01300674176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7022B2B53F01300674176 /* ContentView.swift */; };
 		81C7022E2B53F01500674176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C7022D2B53F01500674176 /* Assets.xcassets */; };
 		81C702312B53F01500674176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C702302B53F01500674176 /* Preview Assets.xcassets */; };
+		81C702392B53F2F400674176 /* Pacifico in Resources */ = {isa = PBXBuildFile; fileRef = 81C702382B53F2F400674176 /* Pacifico */; };
+		81C7023E2B55EF3500674176 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7023D2B55EF3500674176 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		81C7022B2B53F01300674176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81C7022D2B53F01500674176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C702302B53F01500674176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C702382B53F2F400674176 /* Pacifico */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pacifico; sourceTree = "<group>"; };
+		81C7023A2B53F54200674176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81C7023D2B55EF3500674176 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = Fonts/InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		81C702282B53F01300674176 /* AnaCard */ = {
 			isa = PBXGroup;
 			children = (
+				81C7023A2B53F54200674176 /* Info.plist */,
+				81C702372B53F2E000674176 /* Fonts */,
 				81C702292B53F01300674176 /* AnaCardApp.swift */,
 				81C7022B2B53F01300674176 /* ContentView.swift */,
+				81C7023D2B55EF3500674176 /* InfoView.swift */,
 				81C7022D2B53F01500674176 /* Assets.xcassets */,
 				81C7022F2B53F01500674176 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				81C702302B53F01500674176 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C702372B53F2E000674176 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81C702382B53F2F400674176 /* Pacifico */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +143,7 @@
 			files = (
 				81C702312B53F01500674176 /* Preview Assets.xcassets in Resources */,
 				81C7022E2B53F01500674176 /* Assets.xcassets in Resources */,
+				81C702392B53F2F400674176 /* Pacifico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81C7022C2B53F01300674176 /* ContentView.swift in Sources */,
+				81C7023E2B55EF3500674176 /* InfoView.swift in Sources */,
 				81C7022A2B53F01300674176 /* AnaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 5P8C5X6D3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 5P8C5X6D3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
